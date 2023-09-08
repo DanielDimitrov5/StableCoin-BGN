@@ -6,6 +6,7 @@ import {ERC20, ERC20Burnable} from "@openzeppelin/contracts/token/ERC20/extensio
 import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
 
 contract DecentralizedBGN is ERC20Burnable, Ownable {
+    
     error StableCoinBGN__NotEnoughBalance(uint256 balance, uint256 amount);
     error StableCoinBGN__AmountIsZero();
 
